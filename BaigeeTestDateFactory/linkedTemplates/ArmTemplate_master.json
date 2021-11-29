@@ -4,16 +4,16 @@
 	"parameters": {
 		"factoryName": {
 			"type": "string",
-			"metadata": "Data Factory name",
+			"metadata": "数据工厂名称",
 			"defaultValue": "BaigeeTestDateFactory"
 		},
 		"AzureBlobStorage1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+			"metadata": "“AzureBlobStorage1”的“connectionString”的安全字符串"
 		},
 		"AzureSynapseAnalytics1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureSynapseAnalytics1'"
+			"metadata": "“AzureSynapseAnalytics1”的“connectionString”的安全字符串"
 		},
 		"Trigger_63j_properties_CopyPipeline_63j_parameters_windowStart": {
 			"type": "string",
@@ -25,11 +25,11 @@
 		},
 		"containerUri": {
 			"type": "string",
-			"metadata": "URI to storage account containing linked ARM templates"
+			"metadata": "包含链接 ARM 模板的存储帐户的 URI"
 		},
 		"containerSasToken": {
 			"type": "string",
-			"metadata": "Sas token to storage account containing linked ARM templates"
+			"metadata": "包含链接 ARM 模板的存储帐户的 SAS 令牌"
 		}
 	},
 	"variables": {

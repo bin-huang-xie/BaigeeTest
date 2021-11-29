@@ -4,16 +4,16 @@
 	"parameters": {
 		"factoryName": {
 			"type": "string",
-			"metadata": "Data Factory name",
+			"metadata": "数据工厂名称",
 			"defaultValue": "BaigeeTestDateFactory"
 		},
 		"AzureBlobStorage1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+			"metadata": "“AzureBlobStorage1”的“connectionString”的安全字符串"
 		},
 		"AzureSynapseAnalytics1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureSynapseAnalytics1'"
+			"metadata": "“AzureSynapseAnalytics1”的“connectionString”的安全字符串"
 		},
 		"Trigger_63j_properties_CopyPipeline_63j_parameters_windowStart": {
 			"type": "string",
@@ -100,8 +100,7 @@
 											"ordinal": 1
 										},
 										"sink": {
-											"name": "Column1",
-											"type": "String"
+											"name": "first_name"
 										}
 									},
 									{
@@ -110,8 +109,7 @@
 											"ordinal": 2
 										},
 										"sink": {
-											"name": "Column2",
-											"type": "String"
+											"name": "last_name"
 										}
 									}
 								]
