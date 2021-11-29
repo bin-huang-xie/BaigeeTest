@@ -1,0 +1,9 @@
+{
+	"name": "BaigeeTestDateFactory",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4d129ea7-97d5-4b80-a7e7-a8a4021af761",
+		"tenantId": "36da45f1-dd2c-4d1f-af13-5abe46b99921"
+	}
+}
