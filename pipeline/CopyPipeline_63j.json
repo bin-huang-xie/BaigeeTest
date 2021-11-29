@@ -67,8 +67,7 @@
 									"ordinal": 1
 								},
 								"sink": {
-									"name": "Column1",
-									"type": "String"
+									"name": "first_name"
 								}
 							},
 							{
@@ -77,8 +76,7 @@
 									"ordinal": 2
 								},
 								"sink": {
-									"name": "Column2",
-									"type": "String"
+									"name": "last_name"
 								}
 							}
 						]
